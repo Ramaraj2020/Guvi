@@ -1,0 +1,68 @@
+body {
+    background-color: #e1f4f3;
+    text-align: center;
+	font-family: 'Roboto', serif;
+}
+.logo-img {
+    position: relative;
+    margin: 10px 15px 15px 10px;
+	float: left;
+]
+.navbar {
+    background-color: #333333;
+	float: right;
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #f0f0f0;
+  }
+.card-img-top {
+    flex-grow: 1;
+    object-fit:contain;
+}
+.card-body{
+    flex-grow:0;
+}
+
+
+
+.user-container {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  /*   border: 1px solid blue; */
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+  padding: 5px;
+  transition: all 0.5s;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 75px;
+}
+
+.user-name {
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.user-time {
+  color: teal;
+  font-size: 12px;
+}
+
+.user-container:hover {
+  box-shadow: 6px 6px 12px #d0d0d0, -6px -6px 12px #f0f0f0;
+  transform: scale(1.1);
+}
+.image {
+    width:400px;
+    height:200px;
+}
